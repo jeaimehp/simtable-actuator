@@ -1,0 +1,131 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: blog
+    url: blog
+
+  - title: website
+    url: https://www.abhinav.co
+
+project_entries:
+  - title: "OD01 21ft"
+    url: https://setexasrain.onerain.com/site/?site_id=266&site=06e35c31-fc79-469d-be34-72a5954037f5
+    desc: Upper Orange County line. 
+    imgicon: images/floodicon-mid.png
+    sensorLat: "30.2400000"
+    sensorLon: "-93.8489830"
+    waterLevel: "6.8"
+
+  - title: "OD01 25ft"
+    url: https://setexasrain.onerain.com/site/?site_id=266&site=06e35c31-fc79-469d-be34-72a5954037f5
+    desc: Upper Orange County line. 
+    imgicon: images/floodicon-high.png
+    sensorLat: "30.2400000"
+    sensorLon: "-93.8489830"
+    waterLevel: "8.06"
+
+  - title: "OD03 3ft"
+    url: https://setexasrain.onerain.com/sensor/?site_id=327&site=f6929e64-4f56-41e2-a147-b0444da7ea1b&device_id=5&device=b389b733-dbdc-4a38-be76-b674205fd373
+    desc: Bridge City 
+    imgicon: images/floodicon-mid.png
+    sensorLat: "30.029857"
+    sensorLon: "-93.857355"
+    waterLevel: "1.05"
+
+  - title: "OD04 21ft"
+    url: https://setexasrain.onerain.com/sensor/?site_id=327&site=f6929e64-4f56-41e2-a147-b0444da7ea1b&device_id=5&device=b389b733-dbdc-4a38-be76-b674205fd373
+    desc: Upper Vidor
+    imgicon: images/floodicon-mid.png
+    sensorLat: "30.156900"
+    sensorLon: "-94.036800"
+    waterLevel: "6.6"
+
+  - title: "OD05 11ft"
+    url: https://setexasrain.onerain.com/sensor/?site_id=327&site=f6929e64-4f56-41e2-a147-b0444da7ea1b&device_id=5&device=b389b733-dbdc-4a38-be76-b674205fd373
+    desc: Lower Vidor
+    imgicon: images/floodicon-mid.png
+    sensorLat: "30.10450705"
+    sensorLon: "-94.01064909"
+    waterLevel: "3.42"
+
+  - title: "Salt Water Barrier 21ft"
+    url: overview-post
+    desc: 21ft level reading at the Salt Water Barrier
+    imgicon: images/Harvey.png
+    sensorLat: "30.156878"
+    sensorLon: "-94.114346"
+    waterLevel: "6.4"
+
+  - title: "Pine St 20ft"
+    url: overview-post
+    desc: 20ft level reading at Pine St.
+    imgicon: images/Harvey.png
+    sensorLat: "30.133056"
+    sensorLon: "-94.096389"
+    waterLevel: "6.096"
+
+old_project_entries:
+  - title: Soopr
+    url: https://www.soopr.co
+    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+    highlight: NEW
+
+  - title: Cookie
+    url: https://github.com/abhinavs/cookie
+    desc: An open source landing website with supporting pages and integrated blog
+
+  - title: Moonwalk
+    url: https://github.com/abhinavs/moonwalk
+    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+
+  - title: Humangous
+    url: https://www.humangous.co
+    desc: The better people know you, the better they collaborate
+
+footer_entries:
+  - title: abhinav's homepage
+    url: https://www.abhinav.co
+
+  - title: twitter
+    url: https://twitter.com/abhinav
+
+  - title: github
+    url: https://github.com/abhinavs
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
+
+
